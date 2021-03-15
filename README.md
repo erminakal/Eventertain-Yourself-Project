@@ -1,7 +1,17 @@
-# efproject
-eventful-foursquare connection
+# Eventertain Yourself Project
+eventful-foursquare databases combination
 
-here will be some documentation concerning the efproject :coffee:
+The user through this website is able to:
+1.Look up for events or venues to a specific category.
+2.Get more details for a specific event/venue from the presented list.
+3.By choosing an event there is the possibility to search the nearby venues by selecting: Venue Category and radius
+4.By choosing a venue there is the possibility to search the nearby events by selecting: Event Category and radius
+5.Writing down a word in the events search box,the system searches through the list of events(this word appears in title and/or description of the event), without some geographic restriction.
+6.Writing down a word in the venues search box,the system searches through the list of venues(this word appears in title and/or description of the venue), without some geographic restriction.
+
+Here will be some documentation concerning the Eventertain Yourself Project :coffee:
+
+BASIC STEPS
 
 1. Creation of database
 2. Retrieved data from the databases of Eventful and Foursquare
@@ -29,7 +39,11 @@ If you want to run this project you can follow the steps below:
 
     v. From the training package we run the file ImportConstants.java to load the cities, the supercategories(combination of categories from both websites) and the intermediate   tables.   
 
-    vi. Loading of the records / data. Import the csv files that contain the data of the tables.
+    vi. Run the efbackend package,so as to run the sql queries
+    
+   vii. Loading of the records / data. Import the csv files that contain the data of the tables.
+    
+    
     
 2. Front-end execution
 
