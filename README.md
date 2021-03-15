@@ -28,11 +28,10 @@ If you want to run this project you can follow the steps below:
 
     i. Open the xampp program, select MySQL and press Start to start the connection to localhost, our local server.
 
-    ii. Then open the MySql Workbench and load the model.mwb file that contains the tables.
-
-    iii. Run NetBeans and open the packages
-    • efbackend
-    • eventfulclient
+    ii. Then open the MySql Workbench and load the model.mwb file that contains the tables. Load the records / data. Import the csv files that contain the data of the tables
+    
+    iii. Run NetBeans and open the zip packages
+    • efprojbackend
     • training
 
     iv. In the eventfulclient package, in Program.java keep the eventful.run and foursquare.run commands active. In continuance, open the EventfulImporter.java and uncomment,to the bottom of the page, the ImportEventCategories and ImportVenueCategories commands. At the same time in FoursquareImporter.java uncomment,to the bottom of the page, the ImportCategories command.
@@ -41,13 +40,11 @@ If you want to run this project you can follow the steps below:
 
     vi. Run the efbackend package,so as to run the sql queries
     
-   vii. Loading of the records / data. Import the csv files that contain the data of the tables.
-    
-    
+      
     
 2. Front-end execution
 
 Open the Visual Studio Code program and install the npm package manager.
-Load the files that concern the GUI.
+Load the files that concern the GUI (frontend.zip).
 Next type npm run serve that will execute the graphical interface code.
 
